@@ -1,0 +1,43 @@
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* Hiển thị 6 item trên mỗi hàng */
+    gap: 10px;
+    /* Khoảng cách giữa các item */
+    background-color: #f2f2f2;
+    /* Màu nền xám nhạt */
+    padding: 10px;
+    /* Khoảng cách phần bên trong màn hình Home */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination-btn {
+    background-color: #f0f0f0;
+    border: none;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+    background-color: #ccc;
+}
+
+.pagination-btn.active {
+    background-color: #555;
+    color: #fff;
+}
+
+.pagination-btn.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

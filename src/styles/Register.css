@@ -1,0 +1,75 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 150px;
+    /* Màu nền trong suốt */
+}
+
+.register-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://img.freepik.com/premium-photo/hyper-car-neon-background-generated-ai-streamline-test-modern-car-design-diffuse-plastic-optic-some-glowing-contours-illuminate-car-details-dark-scene-cinematic-lightning_620624-7604.jpg?w=2000');
+    /* Đường dẫn tới ảnh nền */
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    /* Độ trong suốt của background */
+    z-index: -1;
+}
+
+.register-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type='email'],
+input[type='password'] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-register {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1500d3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: #aac510;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p a {
+    color: blue;
+}
+
+/* Các quy tắc CSS khác */

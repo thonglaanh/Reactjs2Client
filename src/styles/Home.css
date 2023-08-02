@@ -1,0 +1,78 @@
+/* Home.css */
+/* ... (existing styles remain unchanged) */
+
+/* ListItem.css */
+
+.sort-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sort-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.sort-button:hover {
+    background-color: #2980b9;
+}
+
+.top-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.brand-selection {
+    display: flex;
+    padding-right: 80px;
+}
+
+.brand-selection label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(51, 51, 51)000;
+    margin-top: 7px;
+}
+
+.brand-selection select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") no-repeat right 10px center;
+}
+
+.item-list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

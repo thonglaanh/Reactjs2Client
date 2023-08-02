@@ -1,0 +1,186 @@
+/* Details.css */
+/* Existing styles */
+/* ... */
+
+/* New styles for the updated component */
+.breadcrumbs {
+    font-size: 16px;
+    color: #007bff;
+    margin: 10px;
+    margin-right: 1100px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-image-container {
+    flex: 1;
+}
+
+.car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.car-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.brand-info {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.car-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.car-price {
+    display: flex;
+    align-items: center;
+}
+
+.original-price {
+    font-size: 25px;
+    color: orange;
+    margin-right: 10px;
+}
+
+.discount {
+    font-size: 20px;
+    color: red;
+}
+
+.car-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rating-value {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.sold-quantity {
+    font-size: 18px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.city {
+    font-size: 20px;
+}
+
+.car-description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #777;
+}
+
+.color-selection {
+    margin-top: 20px;
+    border-width: 1px;
+}
+
+.color-options {
+    display: flex;
+
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px #333 solid;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+    border: 2px solid #007bff;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.add-to-cart-button,
+.buy-now-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-button {
+    background-color: #444444;
+    margin-right: 10px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.15);
+}
+
+.buy-now-button {
+    background-color: #444444;
+}
+
+.buy-now-button:hover {
+    background-color: #218838;
+    transform: scale(1.15);
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.car-details {
+    margin-left: 40px;
+}
+
+/* Footer.css */
+/* Existing styles */
+/* ... */
