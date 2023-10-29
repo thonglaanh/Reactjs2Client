@@ -9,18 +9,24 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-
-    const handleSubmit = (e) => {
+    let url = 'http://localhost:4000/account/login';
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Xử lý logic đăng nhập ở đây
 
         if (email === '' || password === '') {
             setError('Vui lòng nhập đầy đủ thông tin.');
         } else {
-            // Xử lý logic đăng nhập thành công
-
-            // Chuyển hướng đến màn hình Home (đường dẫn '/')
-            navigate('/');
+            try {
+                const response = await axios.post(url, { email, password });
+                navigate('/');
+            } catch (error) {
+                if (error.response && error.response.status === 402) {
+                    alert("Sai mật khẩu!!");
+                } else {
+                    console.log(error);
+                    alert("Tài khoản chưa tồn tại");
+                }
+            }
         }
     };
 

@@ -4,12 +4,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import star from '../assets/star.png';
 import location from '../assets/placeholder.png';
-import img from '../assets/wtf.png';
-import voicher from '../assets/voicher.jpg';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-// ... (imports remain unchanged)
 
 const ProductDetails = () => {
     const [car, setCar] = useState({});

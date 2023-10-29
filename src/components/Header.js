@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaSearch, FaShoppingCart, FaHome, FaInfo, FaUser, FaProductHunt } from 'react-icons/fa';
 import '../styles/Header.css';
 import logo from '../assets/carlogo.png';
-
+import axios from 'axios';
 const Header = ({ setSearchTerm }) => {
     const [searchValue, setSearchValue] = useState('');
 
